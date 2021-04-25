@@ -7,7 +7,7 @@ const int low = 200;
 const int high = 800;
 // The next two lines set the min and max delay between blinks.
 const int minDuration = 100; // minimum wait between blinks
-const int maxDuration = 1000; // maximum wait between blinks
+const int maxDuration = 2000; // maximum wait between blinks
 void setup()
 {
 pinMode(LED_BUILTIN, OUTPUT); // enable output on the LED pin
